@@ -1,0 +1,168 @@
+///array in reprsentation
+
+// #include<iostream>
+// using namespace std;
+
+// #define MAX 5
+
+// struct stack
+// {
+//     int data[MAX];
+//     int top;
+// };
+
+// stack s1, *p;
+
+// void init()
+// {
+//     p = &s1;
+//     p->top = -1;
+// }
+
+// int empty()
+// {
+//     return (p->top == -1);
+// }
+
+// int full()
+// {
+//     return (p->top == MAX - 1);
+// }
+
+// void push(int x)
+// {
+//     if(full())
+//     {
+//         cout << "Stack Overflow\n";
+//         return;
+//     }
+//     p->top++;
+//     p->data[p->top] = x;
+// }
+
+// int pop()
+// {
+//     if(empty())
+//     {
+//         cout << "Stack Underflow\n";
+//         return -1;
+//     }
+//     int x = p->data[p->top];
+//     p->top--;
+//     return x;
+// }
+
+// int main()
+// {
+//     init();
+//     push(10);
+//     push(20);
+//     push(30);
+
+//     cout << pop() << endl;
+//     cout << pop() << endl;
+//     cout << pop() << endl;
+
+//     return 0;
+// }
+
+
+
+
+ 
+ 
+//one array is mulitiple impliment 
+
+// #include<iostream>
+// using namespace std;
+
+// #define max 5
+
+// struct stact
+// {
+//     int data[max];
+//     int topA,topB;
+    
+// };
+// stack *p,s;
+// void init()
+// {
+//     p=&s;
+//     p->topA=-1;
+//     p->topB=max;
+
+// }
+// int EmptyA()
+// {
+//     if(p->topA==-1)
+//     return 1;
+//     else
+//     return 0;
+
+// }
+// int EmptyB()
+// {
+//     if(p->topB==max)
+//     return 1;
+//     else
+//     return 0;
+
+// }
+// int FullAB()
+// {
+//     if(p->topA+1==p->topB)
+//     return 1;
+//     else
+//     return 0;
+
+// }
+// void push(int x)
+// {
+//     if(Full AB())
+//     return;
+//     p->top A++;
+//     p->data[p->topA]=x;
+// }
+// void pushB(int x);
+// {
+// if(Full AB())return ;
+// p-> topB--
+// p->data[p->topB]=x;
+
+
+// }
+// int popA()
+// {
+//     int x;
+//     if(Empty A())return;
+//     x=p->data[p->topA];
+//     p->topA--;
+//     return x;
+// }
+// int pop B()
+// {
+//     int x;
+//     if(Empty 13())return
+//     x=p->data(p->topB);
+//     p->topB++;
+//     return x;
+    
+// }
+
+// int main()
+// {
+//     init();
+
+//     pushA(10);
+//     pushA(20);
+//     pushB(100);
+//     pushB(200);
+
+//     cout << popA() << endl;  // 20
+//     cout << popB() << endl;  // 200
+
+//     return 0;
+// }
+
+
+

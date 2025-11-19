@@ -1,0 +1,27 @@
+//class & objects 
+
+#include<iostream>
+#include<string>
+using namespace std;
+class Teacher{
+    //propertis
+    string name;
+    string dept;
+    string subject;
+    float salary;
+//methods
+void changeDept(string newDept){
+    dept=newDept;
+}
+
+};
+int main{
+    Teacher 
+    t1.name="Akhilesh yadav";
+    t1.subject="c++";
+    t1.dept="computer science in engginering ";
+    t1.saleary= "10000000";
+    cout<< "------all detailes--------"<<endl;
+
+    return 0;
+}
