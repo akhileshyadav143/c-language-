@@ -1,11 +1,12 @@
 #include<stdio.h>
-// int main(){
-//   char ch;
-//   printf("enter a character :");
-//   scanf("%c",&ch);
-//   switch(ch){
-//     case 'a':case 'e': case 'i': case'o':case 'u' :
-//     printf("vowel\n");break;
-//     default: printf("consonont");
-//   }
-//   }
+int main(){
+    int num=65;
+ for(int i=0;i<3;i++){
+    for(int j=0;j<=i;j++){
+        printf("%c",num++);
+
+    }
+    printf("\n");
+ }
+}
+
