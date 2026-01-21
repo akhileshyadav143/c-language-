@@ -24,17 +24,5 @@
     // return 0;
 //}
 
-#include<stdio.h>
-int main(){
-   // printf("enter a name\n");
-   // printf("Akhilesh");
-
-   int i;
-   printf("enter a name",i);
-   scanf("%d",&i);
-
-}
-
-
 
 

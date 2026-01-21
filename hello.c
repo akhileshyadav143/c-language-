@@ -104,4 +104,35 @@
 //       int n=5;
 //    int data= sum(arr,n);
 //    printf("%d",data); 
-//  }
+// 
+
+// #include<stdio.h>
+// #include<conio.h>
+// int main(){
+//     int n;
+//     printf("enter a number:");
+//     scanf("%d",&n);
+//     if(n%2==0){
+//         printf("even number");
+    
+//     }else{
+//         printf("odd number");
+//     }
+    
+// }
+
+
+// #include<stdio.h>
+// int main(){
+//     int n,sum=0,i;
+//     printf("enter a number ");
+//     scanf("%d",&n);
+//     for(int i=0;i<=n;i++){
+//         sum+=i;
+//     }
+// printf("sum =%d",sum) ;
+// return 0;
+    
+// }
+
+
