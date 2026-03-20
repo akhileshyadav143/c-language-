@@ -36,3 +36,5 @@ int main(){
     cout<<isSafe<<endl;
     return 0;
 }
+
+
