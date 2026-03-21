@@ -1,6 +1,11 @@
-#include<iostream>
+
+// #include<iostream>
 // using namespace std;
 // int main(){
-//     cout<<"Akhilesh yadav \n coder";
-//     return 0;
+//    int age;
+//    cout<< "Enter the age"<<endl;
+//    cin>>age;
+
+//    cout<<"you age is :"<<age <<endl;
+//    return 0;
 // }
